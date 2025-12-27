@@ -1,0 +1,28 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Gazebo
+.gazebo/
+.ignition/
+
+# ROS logs
+*.log
